@@ -1,0 +1,35 @@
+@media only screen and (max-width: 575px) {
+
+    .agenda-wrap .body{
+        width:100%;
+        padding: ;
+    }
+    .side{
+        width:100%;
+        justify-content: flex-start;
+        padding: 0 10px;
+    }
+    .agenda-wrap .body {
+        text-align: left;
+        padding: 0 10px;
+    }
+    .agenda-wrap .body hr{
+        margin: 5px 0;
+        border:none;
+    }
+    .details{
+        flex-direction: row;
+    }
+    .details iframe{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .details p{
+        margin-right: 10px;
+    }
+    .details a{
+        margin-right: 10px;
+    }
+    
+
+  }

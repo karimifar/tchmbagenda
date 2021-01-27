@@ -1,0 +1,144 @@
+* {
+  font-family: "proxima-soft";
+}
+
+/* .concurrent{
+  background-color: hsl(0, 100%, 90%);
+  
+} */
+
+.title {
+  text-align: center;
+  background-color:#02b0a8;
+  color: #1a4d5c;
+  padding: 20px;
+  border-radius: 25px;
+}
+h3{
+  color: #02b0a8;
+  font-size: 20px;
+  font-weight: 600;;
+}
+.agenda-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+.side {
+  width: 30%;
+  text-align: right; 
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.details{
+  display: flex;
+  flex-direction: column
+}
+.details p{
+  margin-bottom: 5px;
+}
+.agenda-wrap .body {
+  width: 70%;
+  text-align: left;
+  padding: 15px 5px;
+}
+.body h3{
+  margin-bottom: 10px;
+}
+
+
+.name {
+  color:#1a4d5c;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h2{
+line-height: 5px;
+}
+
+.details .zoom-link{
+  margin-bottom: 5px;
+  align-self: center;
+  color:#1a4d5c;
+  font-size: 14px;
+}
+
+.details iframe{
+  display: block;
+  align-self: center;
+}
+.day{
+  color:#ffffff;
+  line-height: 10px;
+}
+
+.address{
+  text-align: center;
+}
+
+.agenda-line{
+  border-bottom: 1px solid #D1618B44;
+  padding:20px 0px 20px;
+  /* margin-bottom: 20px; */
+}
+.speaker{
+  display: flex;
+  margin-bottom: 20px;
+}
+.speaker p{
+  margin-bottom: 5px;
+}
+.speaker .info{
+  width: calc(100% - 60px)
+}
+.headshot{
+  width: 60px;
+  margin-right: 10px;
+}
+.headshot img{
+  width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+}
+.speaker:hover .headshot img{
+  filter: grayscale(0%);
+}
+.interactions a{
+  margin-right: 5px;
+}
+a.bio-btn{
+  color:#1a4d5c;
+}
+a.twitter-handle{
+  color: #02b0a8;
+}
+.modal-body{
+  display: flex;
+}
+.modal-body .headshot{
+  width:30%;
+  min-width:120px;
+  max-width: 200px;
+  padding: 10px;
+}
+.bio-text{
+  width:70%;
+  padding: 10px;
+}
+.modal-title{
+  color: #1a4d5c;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.modal-header{
+  position: absolute;
+  border-bottom: none;
+  right:0;
+  z-index: 5;
+}
+.modal-title .cred{
+  font-weight: 200;
+  color: #1a4d5c;
+}
