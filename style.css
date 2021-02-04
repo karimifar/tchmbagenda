@@ -19,6 +19,9 @@ h3{
   font-size: 20px;
   font-weight: 600;;
 }
+.agenda-line:nth-child(odd){
+  background-color: #1a4d5c0a;
+}
 .agenda-wrap{
   display: flex;
   flex-wrap: wrap;
@@ -42,6 +45,7 @@ h3{
   width: 70%;
   text-align: left;
   padding: 15px 5px;
+  max-width: 1000px;
 }
 .body h3{
   margin-bottom: 10px;
@@ -86,6 +90,10 @@ line-height: 5px;
 .speaker{
   display: flex;
   margin-bottom: 20px;
+  padding: 4px 10px;
+}
+.speaker:hover{
+  background-color: #02b0a811;
 }
 .speaker p{
   margin-bottom: 5px;
