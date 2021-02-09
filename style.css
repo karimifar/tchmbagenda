@@ -9,12 +9,27 @@
 html {
   scroll-behavior: smooth;
 }
+#iframeBody{
+  position: relative;
+}
+#pre-session{
+  margin-top: 60px;
+}
+.agenda-nav-wrap{
+  position: fixed;
+  top:0;
+  z-index: 10;
+  padding: 10px;
+  height: 60px;
+  background: #fff;
+  width:100%;
+  border-bottom: #02b0a8 1px solid;
 
+}
 .agenda-nav{
   display: flex;
   justify-content: center;
-  padding: 10px;
-  margin-bottom: 30px;
+  width:100%;
 }
 .agenda-nav a{
   padding: 0 10px;
