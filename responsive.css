@@ -1,24 +1,75 @@
 @media only screen and (max-width: 575px) {
 
+    
+
+    #pre-session{
+        margin-top: 40px;
+    }
+
+    .agenda-nav-wrap{
+        height: 40px;
+    }
+
+    .agenda-nav a{
+        font-size: 14px
+    }
     .agenda-wrap .body{
         width:100%;
-        /* padding: ; */
+        padding: 0 ;
+        text-align: left;
     }
+    .title h2{
+        font-size: 18px;
+        /* margin-bottom: 0; */
+    }
+
     .side{
         width:100%;
-        justify-content: flex-start;
-        padding: 0 10px;
+        justify-content: center;
+        padding: 10px 5px 8px;
+        background: #1a4d5c22;
+        /* color: #fff; */
     }
-    .agenda-wrap .body {
-        text-align: left;
-        padding: 0 10px;
+    .agenda-line{
+        padding:0;
+        border-bottom: 1px solid #D1618B66;
     }
+
+    .body h3{
+        width: 100%;
+        text-align: center;
+        background: #1a4d5c22;
+        color:#02b0a8;
+        padding: 10px 10px 15px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 0;
+        border-bottom: #ffffff55 1px solid;
+        border-top: #ffffff55 1px solid;
+    }
+    .body p.lone {
+        padding : 0 10px;
+        text-align: center;
+    }
+    .speaker{
+    }
+    .details .zoom-link{
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .details p{
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
     .agenda-wrap .body hr{
         margin: 5px 0;
         border:none;
     }
     .details{
         flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
     }
     .details iframe{
         display: inline-block;
@@ -29,6 +80,13 @@
     }
     .details a{
         margin-right: 10px;
+    }
+
+    .info p{
+        font-size: 14px;
+    }
+    .interactions a{
+        font-size: 12px;
     }
     
 

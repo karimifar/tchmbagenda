@@ -35,7 +35,7 @@ html {
   padding: 0 10px;
   color: #1a4d5c;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 100;
   text-transform: uppercase;
 }
 .agenda-nav a:hover{
@@ -47,6 +47,9 @@ html {
   color: #1a4d5c;
   padding: 20px;
   /* border-radius: 25px; */
+}
+.title h2{
+  font-weight: 900;
 }
 h3{
   color: #02b0a8;
@@ -92,9 +95,7 @@ h3{
   text-transform: uppercase;
 }
 
-h2{
-line-height: 5px;
-}
+
 
 .details .zoom-link{
   margin-bottom: 5px;
