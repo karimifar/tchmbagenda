@@ -159,6 +159,10 @@ a.twitter-handle{
 .modal-body{
   display: flex;
 }
+.modal-dialog{
+  width: 80%;
+  max-width: 1200px;
+}
 .modal-body .headshot{
   width:30%;
   min-width:120px;
