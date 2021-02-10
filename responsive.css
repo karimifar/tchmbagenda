@@ -89,5 +89,20 @@
         font-size: 12px;
     }
     
-
+    .modal-body{
+        flex-wrap: wrap;
+        padding:10px;
+    }
+    .modal-body .headshot{
+        width: 100%;
+        max-width: 150px;
+        margin: auto;
+    }
+    .modal-body .bio-text{
+        width: 100%;
+    }
+    .modal-title{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
   }

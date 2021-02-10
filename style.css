@@ -15,6 +15,9 @@ html {
 #pre-session{
   margin-top: 60px;
 }
+.modal-dialog{
+  margin: 10vh auto;
+}
 .agenda-nav-wrap{
   position: fixed;
   top:0;
@@ -169,6 +172,9 @@ a.twitter-handle{
   min-width:120px;
   max-width: 200px;
   padding: 10px;
+}
+.modal-body .headshot img{
+  filter: grayscale(0%);
 }
 .bio-text{
   width:70%;
