@@ -151,7 +151,7 @@ h3{
 .speaker:hover .headshot img{
   filter: grayscale(0%);
 }
-.interactions a{
+.body a{
   margin-right: 5px;
   color:#1a4d5c;
 }
